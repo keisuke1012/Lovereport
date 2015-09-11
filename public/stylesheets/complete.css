@@ -38,7 +38,7 @@ ul.navbar-nav li a {
   top: 73px;
   background-color: #F8B4C4;
   color: white;
-  height: 333px;
+  height: 360px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -46,7 +46,7 @@ ul.navbar-nav li a {
 
 .info-container {
   position: relative;
-  top: 70px;
+  top: 40px;
   float:left;
   margin-left: 100px;
   width: 43%;
@@ -54,13 +54,12 @@ ul.navbar-nav li a {
 
 .jumbotron p {
   position: relative;
-  top: 65px
+  top: 20px
   left: 20px;
   font-size: 15px;
 }
 
-
-.button {
+.btn {
   color: #F8B4C4;
   background-color: white;
 }
@@ -68,6 +67,12 @@ ul.navbar-nav li a {
 .btn:hover {
   color: white;
   background-color: #414247;
+}
+
+.btn-lg {
+  position: relative;
+  top: 5px;
+  left: 20px;
 }
 
 .head-pic {
@@ -78,55 +83,10 @@ ul.navbar-nav li a {
   height: 170px;
 }
 
-.main-content {
-  color: #D8505C;
-  border: 8px #D8505C solid;
-  border-radius: 20px;
-  padding: 60px 100px;
-  display: block;
-  margin-top: 120px;
-}
-
-.main-name {
-  font-size: 50px;
-  text-decoration: underline;
-}
-
-.req-title {
-  display: block;
-  font-size: 40px;
-}
-
-.myimage {
-  font-size: 15px;
-}
-
-.title-edit, .major-edit, .name-edit {
-  font-size: 20px;
-  color: #414247;
-  width: 40%;
-}
-
-.req-detail, .user-major, .user-img, .user-name{
-  font-size: 40px;
-  margin-top: 50px;
-}
-
-.detail-edit {
-  font-size: 20px;
-  color: #414247;
-  width: 80%;
-  resize: none;
-}
-
-.btn-enter {
-  margin-top: 20px;
-}
-
 
 footer {
   position: relative;
-  top: 80px;
+  top: 70px;
   background-color: #414247;
   text-align: center;
   padding: 10px;
@@ -135,11 +95,6 @@ footer {
 
 @media (max-width: 1232px) and (min-width: 0px) { 
    a.btn.btn-primary.btn-lg { display: none; } 
-}
-
-@media (max-width: 839px) and (min-width: 768px) { 
-   .nav-pic {margin-left: 10px;}
-   .navbar-nav{margin-left: 0px;}
 }
 
 @media (max-width: 1232px) and (min-width: 0px) { 
@@ -166,6 +121,11 @@ footer {
    .info-container { margin-left: 30px; } 
 }
 
+@media (max-width: 839px) and (min-width: 768px) { 
+   .nav-pic {margin-left: 10px;}
+   .navbar-nav{margin-left: 0px;}
+}
+
 @media screen and (max-width: 480px) {
   header.jumbotron .container p {
     font-size: 16px;}
@@ -173,21 +133,4 @@ footer {
 
 @media (max-width: 956px) and (min-width: 0px) { 
    .head-pic { display: none; } 
-}
-
-@media (max-width: 991px) and (min-width: 0px) { 
-   .detail-edit { width: 332px;} 
-}
-
-@media (max-width: 991px) and (min-width: 0px) { 
-   .detail-box { width: 332px;} 
-}
-
-
-@media screen and (max-width: 1000px) {
-  .req-detail { left: 0;}
-}
-
-@media screen and (max-width: 1000px) {
-  .req-title { left: 0;}
 }

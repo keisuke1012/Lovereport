@@ -83,76 +83,63 @@ ul.navbar-nav li a {
 	height: 170px;
 }
 
-.profile-container {
-	color: #D8505C;
+.basic-info {
 	border: 8px #D8505C solid;
 	border-radius: 20px;
 	margin-top: 120px;
 	padding: 50px;
-}
-
-.profile-pic {
-	width: 295px;
-	height: 295px;
-	float: left;
-}
-
-.profile {
 	color: #414247;
 }
 
-.profile-head {
+.info-head {
 	font-size: 50px;
 	color: #D8505C;
 	text-decoration: underline;
 }
 
-.name {
+.lang-head {
 	font-size: 30px;
+	color: #414247;
+	margin: 20px 0px;
 }
 
-.profile-name, .profile-major {
-	font-size: 40px;
+.checkbox {
+	color: #414247;
 }
 
-.major {
+.appeal-head, .url-head {
 	font-size: 30px;
+	color: #414247;
 }
 
-.request-container {
-	border: 8px #D8505C solid;
-	border-radius: 20px;
+.form-text {
+	resize: none;
 	margin-top: 20px;
-	padding: 50px;
+	margin-bottom: 20px;
+}
+
+.fb-url {
+	width: 40%;
+}
+
+.mail {
+	margin: 20px 0px;
+	font-size: 15px;
 	color: #414247;
+	width: 30%;
 }
 
-.request-head {
-	font-size: 50px;
-	color: #D8505C;
-	text-decoration: underline;
+.appeal {
+	resize: none;
+	width: 80%;
 }
 
-.request {
-	color: #414247;
-	font-size: 40px;
-	margin-left: 40px;
+.sub-btn {
+	margin-top: 20px;
 }
 
-.title {
-	font-size: 30px;
-}
-
-.request-ttl {
-	margin: 10px;
-}
-
-.request-detail {
-	margin: 10px;
-}
-
-.detail {
-	font-size: 30px;
+input {
+	font-weight: normal !important;
 }
 
 footer {
@@ -189,7 +176,7 @@ footer {
 }
 
 @media (max-width: 956px) and (min-width: 0px) { 
-   .info-container { margin-left: 30px; } 
+   .info-container { margin-left: 30px } 
 }
 
 @media (max-width: 839px) and (min-width: 768px) { 
